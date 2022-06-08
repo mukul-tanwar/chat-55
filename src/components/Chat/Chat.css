@@ -1,0 +1,98 @@
+.container{
+    /* width: 100%; */
+    height: 100vh;
+    background-color: rgb(134, 142, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.message-box{
+    /* margin-left: 50px; */
+    width: 25%;
+    height: 450px;
+    background-color: rgb(227, 220, 211);
+}
+.chat-box{
+    width: 100%;
+    height: 400px;
+    /* background-color: red; */
+}
+.send-box{
+    box-shadow: 0px 0px 7px 0px black;
+    margin-top: 1px;
+}
+.message{
+    width: 80%;
+    height: 39.5px;
+    padding-left: 8px;
+    border: none;
+    outline: none;
+    appearance: none;
+    font-size: 14px;
+    /* box-shadow: 0px 0px 5px 1px black; */
+
+}
+.message-btn{
+    width: 20.21%;
+    padding-top: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 12px;
+
+
+    margin-left: -1px;
+    background-color: #2979ff;
+    border: none;
+}
+.message-btn:hover{
+    background-color: rgba(250, 47, 47, 0.786);
+}
+.close{
+    text-decoration: none;
+    color: rgb(241, 231, 231);
+    
+
+}
+.ghgh{
+ text-align: center;
+ align-items: center;
+ display: flex;
+ justify-content: space-around;
+}
+.ggg{
+    width: 70px;
+    border: 0px solid black; 
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #2979ff;
+    /* margin-bottom: 60px; */
+    
+
+}
+.ggg:hover{
+    background-color: rgba(250, 47, 47, 0.786);
+}
+.chat-box{
+    overflow: auto;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    /* outline: ; */
+    
+
+}
+.spanmssg{
+    /* width: 400px; */
+    /* height: 50px; */
+    padding: 5px;
+    margin-left: 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 17, 17);
+    /* display: inline-block; */
+}
+.chch{
+    margin: 18px 0px;
+}
+/* h1{
+    background-color: white;
+} */
